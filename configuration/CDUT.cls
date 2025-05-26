@@ -239,9 +239,9 @@
 \renewcommand\figurename{\hei\zihao{5} 图}  
 \renewcommand\tablename{\hei\zihao{5} 表}
 \newcommand{\chartname}[1]{\caption{\hei\zihao{5} #1}}
-\renewcommand{\thefigure}{\arabic{chapter}-\arabic{figure}}
-\renewcommand{\theequation}{\arabic{chapter}-\arabic{equation}}
-\renewcommand{\thetable}{\arabic{chapter}-\arabic{table}}
+\renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
+\renewcommand{\theequation}{\arabic{chapter}.\arabic{equation}}
+\renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}
 
 %%%==============================图片路径==============================%%%
 \graphicspath{{figures/}}        % 图片放在 figures 文件夹.
