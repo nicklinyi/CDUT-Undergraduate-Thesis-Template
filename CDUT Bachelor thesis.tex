@@ -1,5 +1,7 @@
 % !Mode:: "TeX:UTF-8"
 \documentclass[AutoFakeBold]{configuration/CDUT}
+% 修改期刊名为斜体
+\DeclareFieldFormat[article]{journaltitle}{\mkbibemph{#1}} 
 \begin{document}
 %%%=============================封面页信息采集=============================%%%
 \fenleihao{}                    %《中国图书资料分类法》的类号
