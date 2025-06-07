@@ -36,7 +36,10 @@
 \newcommand{\hei}{\CJKfamily{hei}}   %设置黑体快捷命令
 
 %%%============================页面布局========================%%%
-\RequirePackage{fancyhdr,hyperref}%加入页眉与生成PDF文件中目录与超链接的包
+\RequirePackage{fancyhdr}%加入页眉包
+\RequirePackage{tocloft}%加入生成PDF文件中目录的包
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}%目录中章节标题后加虚线
+\RequirePackage{hyperref}%加入生成PDF文件中超链接的包
 \hypersetup{pdfencoding=auto,colorlinks=true,allcolors=black}%关于超链接的设置
 \RequirePackage[top=3truecm,bottom=2.9truecm,left=2.8truecm,right=2.5truecm,xetex]{geometry}    % 页面布局设置
 
