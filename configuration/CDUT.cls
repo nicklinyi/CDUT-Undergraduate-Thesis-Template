@@ -38,6 +38,7 @@
 %%%============================页面布局========================%%%
 \RequirePackage{fancyhdr}%加入页眉包
 \RequirePackage{tocloft}%加入生成PDF文件中目录的包
+% https://tex.stackexchange.com/questions/53898/how-to-get-lines-with-dots-in-the-table-of-contents-for-sections
 \renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}%目录中章节标题后加虚线
 \RequirePackage{hyperref}%加入生成PDF文件中超链接的包
 \hypersetup{pdfencoding=auto,colorlinks=true,allcolors=black}%关于超链接的设置
